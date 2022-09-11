@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgb(45, 44, 44); */
+    background-image: url('/assets/bg3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: top;
+    color: antiquewhite;
+}
+
+.container{
+    width: 50rem;
+    padding: 30px 30px 25px;
+    border-radius:2rem;
+    /* background-color: #3b3a3a; */
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); 
+    backdrop-filter: blur(10px);
+}
+
+.container header{
+    font-size: 2rem;
+    font-size: 600;
+    text-align: center;
+}
+
+.container .content{
+    margin: 35px 0;
+}
+
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area .quote{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+.content .author{
+    display: flex;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-style: italic;
+    justify-content: flex-end;
+}
+
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+.container .btns{
+    border-top: 1px solid black;
+}
+
+.btns .features{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns .features ul{
+    display: flex;
+}
+
+.btns .features ul li{
+    list-style: none;
+    margin: 0 .5rem;
+    height: 2rem;
+    width: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btns .features ul li:hover{
+    color: antiquewhite;
+    background-color: black;
+}
+
+.btns .features button{
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 0, 0.806);
+    color: black;
+    border-radius: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btns .features button:hover{
+    color: antiquewhite;
+    background-color: black;
+}
+
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+
+
+
